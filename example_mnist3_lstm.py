@@ -99,9 +99,11 @@ with tf.Session(graph=graph) as sess:
     sess.run(init)
     for epoch in range(1, EPOCH+1):
         #results = np.zeros(shape=(TEST_EXAMPLES, 10))
-        train_losses=[]
-        accus=[]
-        #test_losses=[]
+        train_losses = []
+        accus = []
+        test_losses = []
+        test_accus = []
+        print('---------------')
         print("epoch:",epoch)
         for j in range(TRAIN_EXAMPLES//BATCH_SIZE):
             _, train_loss, accu = sess.run(
@@ -115,3 +117,18 @@ with tf.Session(graph=graph) as sess:
             accus.append(accu)
         print("average training loss:", sum(train_losses) / len(train_losses))
         print("accuracy:", sum(accus)/len(accus))
+        print('-----')
+
+
+
+        test_output, test_loss, test_accuracy = sess.run(
+            fetches=(optimizer, cross_loss, accuracy),
+            feed_dict={
+                X_p: map(lambda x: x[0], test_data),
+                y_p: map(lambda x: x[1], test_data)
+            }
+        )
+        test_losses.append(test_loss)
+        test_accus.append(test_accuracy)
+        print("average test loss:", sum(test_losses) / len(test_losses))
+        print("test accuracy:", sum(test_accus)/len(test_accus))

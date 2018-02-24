@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1a023c9-1ad4-4725-aa8d-ecd3440918f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example_mnist3_lstm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_mnist2.py" afterPath="$PROJECT_DIR$/example_mnist2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example_mnist3_lstm.py" afterPath="$PROJECT_DIR$/example_mnist3_lstm.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="example_mnist2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example_mnist2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="126" column="65" lean-forward="true" selection-start-line="126" selection-start-column="65" selection-end-line="126" selection-end-column="65" />
+            <state relative-caret-position="311">
+              <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -43,8 +41,8 @@
       <file leaf-file-name="example_mnist3_lstm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example_mnist3_lstm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="113" column="42" lean-forward="false" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="42" />
+            <state relative-caret-position="821">
+              <caret line="133" column="64" lean-forward="false" selection-start-line="133" selection-start-column="64" selection-end-line="133" selection-end-column="64" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -365,8 +363,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example_mnist2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="126" column="65" lean-forward="true" selection-start-line="126" selection-start-column="65" selection-end-line="126" selection-end-column="65" />
+        <state relative-caret-position="311">
+          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -375,8 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example_mnist3_lstm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="113" column="42" lean-forward="false" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="42" />
+        <state relative-caret-position="821">
+          <caret line="133" column="64" lean-forward="false" selection-start-line="133" selection-start-column="64" selection-end-line="133" selection-end-column="64" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
