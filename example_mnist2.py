@@ -4,7 +4,6 @@ import pickle
 import numpy as np
 
 
-# ------logistic regression example------
 # ------multiple layers------
 
 session = tf.Session()
